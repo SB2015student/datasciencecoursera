@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function will return cached value of the inverse matrix if it has been calculated
-## if not calculated it will call the function to calculate value and update cache
+## if not calculated it will call the function to calculate value and update cache   
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
